@@ -53,7 +53,7 @@ This will create your vm for testing.
 
 There are multiple [config.vm](https://www.vagrantup.com/docs/vagrantfile/machine_settings.html) options for the machine settings. In this example I user only the networking option to allow port forwarding.
 
-**Before moving forward to the next phase run:** `[vagrant destroy](https://www.vagrantup.com/docs/cli/destroy.html)` 
+**Before moving forward to the next phase run:** [vagrant destroy](https://www.vagrantup.com/docs/cli/destroy.html) 
 _This will remove the vm and allow you to start over_
 
 So we add that in the next config line.
@@ -73,7 +73,7 @@ vagrant up
 We now have a vm that has port `3000` in the vm forwarded out to the open world as 9090.
 You should now be able to go to `127.0.0.1:9090` on your webbrowser, and see nothing but white on the page.
 
-**Before moving forward to the next phase run:** `[vagrant destroy](https://www.vagrantup.com/docs/cli/destroy.html)` 
+**Before moving forward to the next phase run:** [vagrant destroy](https://www.vagrantup.com/docs/cli/destroy.html) 
 _This will remove the vm and allow you to start over_
 
 #### Adding extra provisioning
@@ -105,11 +105,11 @@ vagrant up
 You should now have a vm up and running with rails and when you put `127.0.0.1:9090` in your webbrowser you will see the webpage says _Hello World, Sorry for the Delay_. As previously stated the build does take a large amount of time to provision.
 
 
-###### Playbook information
+##### Playbook information
 
 The play book is just built to install the rails application and run the gem bundle installs. This is to make sure that the application has the proper gems _probably more than usual so you can get creative with [bootstrapping](https://launchschool.com/blog/integrating-rails-and-bootstrap-part-1) on rails_
 
-###### Shell script information
+##### Shell script information
 
 This script just creates a rails application and makes the edits to start the front end webpage to say hello world.
 You can read the script in this example or you can [build your own with this tutorial](https://www.bogotobogo.com/RubyOnRails/RubyOnRails_HelloWorld_Rails.php)
