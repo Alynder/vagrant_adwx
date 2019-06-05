@@ -20,7 +20,7 @@ This application is just for lifting a small hello world page inside rails. The 
 + [Vagrant](https://www.vagrantup.com/docs/installation/)
 + [Virtual box](https://www.virtualbox.org/wiki/Downloads)
 + [Ruby on Rails](http://installrails.com/steps/choose_os)
-+ [Aton.io IDE](https://atom.io/)
++ [Atom.io IDE](https://atom.io/)
 + [Notepad ++ Text editor](https://notepad-plus-plus.org/download/v7.5.9.html)
 
 
